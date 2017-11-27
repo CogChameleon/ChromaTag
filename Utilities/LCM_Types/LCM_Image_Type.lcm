@@ -1,0 +1,13 @@
+package JMD;
+
+struct LCM_Image_Type
+{
+    int64_t Timestamp;
+    int32_t DataSize;
+    int16_t Height;
+    int16_t Width;
+    int16_t Stride;
+    int8_t  Channels;
+    int8_t  PixelSize;
+    byte Data[DataSize];
+}

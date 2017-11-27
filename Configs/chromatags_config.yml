@@ -1,0 +1,39 @@
+%YAML:1.0
+# chromatags_config.yml
+# ChromaTags Configuration file in yaml format. These values will
+# populate the settings of ChromaTags, but command line options
+# will overwrite these settings if provided. See
+# JMD_ChromaTag.hpp and JMD_ChromaTag_Common.hpp for a list of
+# options
+# 
+# General Options
+VerboseLevel: 1
+DebugLevel: 0
+Subsample: 4
+
+# Detect Options
+RefineCornersLevel: 1 #1 = yes, 2 = subpixel accuracy
+
+# Decode Options
+UseRingsForHomography: 0 #USE_RINGS_OUTER=0, USE_RINGS_ALL=1
+MaxSearchHammingDistance: 2
+
+# Pose Options
+UseRingsForPose: 1 #USE_RINGS_OUTER=0, USE_RINGS_ALL=1
+TagSize: 0.2032 #in meters
+FX: 1064.2678873095933
+FY: 1070.8477701108291
+CX: 356.14229613031171
+CY: 248.88783293664227
+K1: -0.41355597537266370
+K2: -0.11070772798272586
+P1: -0.0029167114358850128 
+P2: -0.00061490173089510632
+K3: 1.2385399031644129
+
+# Viewer Options
+WindowWidth: 1280
+WindowHeight: 960
+WindowX: 100
+WindowY: 100
+ZoomSpeed: 0.4

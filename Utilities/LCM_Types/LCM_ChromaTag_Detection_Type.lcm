@@ -1,0 +1,23 @@
+package JMD;
+
+struct LCM_ChromaTag_Detection_Type
+{
+    int64_t Timestamp;
+
+    int32_t DetectionSize;                       //how many detections were found in the image
+
+    //Detection
+    int32_t DetectionRings[DetectionSize];       //each detection has a number of rings (e.g. 1, 3)
+    double DetectionCornersU[DetectionSize][12]; //assumes a max of 3 rings, so 12 possible U values, uses DetectionRings to know how many
+    double DetectionCornersV[DetectionSize][12]; //assumes a max of 3 rings, so 12 possible V values, uses DetectionRings to know how many
+    
+    //Code
+    boolean HasCode[DetectionSize];              //true if code was calculated
+    int32_t CodeSize[DetectionSize];             //each detection code is a certain size (e.g. 16,25,36)
+    boolean Code[DetectionSize][36];             //each detection has a max of 36 bits for the code (e.g. 6x6), uses CodeSize to know how many
+
+    //Pose
+    boolean HasPose[DetectionSize];              //true if pose was calculated
+    double PoseTranslation[DetectionSize][3];    //each detection has tx, ty, tz
+    double PoseRotation[DetectionSize][4];       //each detection has qw, qx, qy, qz
+}
