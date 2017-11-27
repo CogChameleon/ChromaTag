@@ -36,7 +36,7 @@ Some toy data is provided with the repository to ensure things are running corre
 Follow the steps below to install dependencies (common and OpenCV) before building ChromaTag.
 
 #### Common ####
-These are common Unix libraries used to acquire and build c++ programs from source. In particular, ChromaTag uses cmake.
+These are common Unix libraries used to build c++ programs from source.
 ```
 sudo apt-get install git
 sudo apt-get install build-essential
@@ -81,7 +81,7 @@ OpenCV should now be installed in your system. If you choose to download a diffe
 ### ChromaTag ###
 To clone and build ChromaTag, move to a directory where you want the ChromaTag source to live and then run the following commands in a Unix terminal.
 ```
-git clone https://gitlab.engr.illinois.edu/degol2/ChromaTag.git
+git clone https://github.com/CogChameleon/ChromaTag.git
 cd ChromaTag
 mkdir build
 cd build
