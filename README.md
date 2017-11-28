@@ -16,14 +16,14 @@ ChromaTag is released under the MIT License (see the LICENSE file for details). 
 
 ## Citing ChromaTag ##
 If you find ChromaTag useful, please consider citing:
-	
+```
 @inproceedings{DeGol:ICCV:17,
   author    = {Joseph DeGol and Timothy Bretl and Derek Hoiem},
   title     = {ChromaTag: A Colored Marker and Fast Detection Algorithm},
   booktitle = {ICCV},
   year      = {2017}
 }
-
+```
 
 ## Data ##
 Some toy data is provided with the repository to ensure things are running correctly. Additional test data can be found [here](http://degol2.web.engr.illinois.edu/pages/ChromaTag_ICCV17.html).
