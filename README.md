@@ -27,7 +27,11 @@ If you find ChromaTag useful, please consider citing:
 ```
 
 ## Data ##
-Some toy data is provided with the repository to ensure things are running correctly. Additional test data can be found [here](http://degol2.web.engr.illinois.edu/pages/ChromaTag_ICCV17.html).
+Some toy data is provided with the repository to ensure things are running correctly. Here are links to some additional datasets:
+[Download Starter Data Translation](https://uofi.box.com/shared/static/tzf7kabniv189oyqkprhej6ny7l3qatx.zip)
+[Download Starter Data In-Plane Rotation](https://uofi.box.com/shared/static/e4tv77nv0fshek6uasi6v0lr7ry5tt5k.zip)
+[Download Development Data In-Plane Rotation](https://uofi.box.com/shared/static/v9rrv8iny4ox1mky5btiw8d9fkrelp7m.zip)
+[Download Development Data Out-Of-Plane Rotation](https://uofi.box.com/shared/static/7gekssc211yc2z52r69m9q2za86pm0bi.zip)
 
 
 ## Tags ##
@@ -102,7 +106,7 @@ ls
 A run script is provided to process the toy images. This script uses the `Run_ChromaTag_Detector` program in `.../build/bin`. To run the script, type:
 ```
 cd ChromaTag/Scripts
-bash run_chromatag.sh
+bash Run_ChromaTag.sh
 ```
 
 The script is useful in seeing the default way to process images in a folder. There are other options for processing (e.g. processing a list of images or an LCM stream). To run with no images and see the menu, type:
