@@ -7,9 +7,9 @@ ChromaTag is a colored fiducial marker and fast detection algorithm. It was orig
 2. Testing inter-marker confusion
 3. Tag generation tools
 4. Color calibration tool to generate markers for specific lighting conditions
-You can contact Joseph DeGol (degol2@illinois.edu) with any questions, problems, or suggestions.
 5. Additional Tag Families (36H11)
 
+You can contact Joseph DeGol (degol2@illinois.edu) with any questions, problems, or suggestions.
 
 ## License ##
 ChromaTag is released under the MIT License (see the LICENSE file for details). [OpenCV](https://opencv.org/), which is required to build and run ChromaTag, is released under the [BSD 3-Clause license](https://opencv.org/license.html).
