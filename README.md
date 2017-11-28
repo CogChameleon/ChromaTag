@@ -7,8 +7,9 @@ ChromaTag is a colored fiducial marker and fast detection algorithm. It was orig
 2. Testing inter-marker confusion
 3. Tag generation tools
 4. Color calibration tool to generate markers for specific lighting conditions
-You can contact Joseph DeGol (degol2@illinois.edu) with any questions, problems, or suggestions.
+5. Additional Tag Families (36H11)
 
+You can contact Joseph DeGol (degol2@illinois.edu) with any questions, problems, or suggestions.
 
 ## License ##
 ChromaTag is released under the MIT License (see the LICENSE file for details). [OpenCV](https://opencv.org/), which is required to build and run ChromaTag, is released under the [BSD 3-Clause license](https://opencv.org/license.html).
@@ -26,10 +27,15 @@ If you find ChromaTag useful, please consider citing:
 ```
 
 ## Data ##
-Some toy data is provided with the repository to ensure things are running correctly. Additional test data can be found [here](http://degol2.web.engr.illinois.edu/pages/ChromaTag_ICCV17.html).
+Some toy data is provided with the repository to ensure things are running correctly. Here are links to some additional datasets:  
+1. [Download Starter Data Translation](https://uofi.box.com/shared/static/tzf7kabniv189oyqkprhej6ny7l3qatx.zip)  
+2. [Download Starter Data In-Plane Rotation](https://uofi.box.com/shared/static/e4tv77nv0fshek6uasi6v0lr7ry5tt5k.zip)  
+3. [Download Development Data In-Plane Rotation](https://uofi.box.com/shared/static/v9rrv8iny4ox1mky5btiw8d9fkrelp7m.zip)  
+4. [Download Development Data Out-Of-Plane Rotation](https://uofi.box.com/shared/static/7gekssc211yc2z52r69m9q2za86pm0bi.zip)  
 
 
 ## Tags ##
+The 16H5 family of ChromaTags can be downloaded from [here](https://www.dropbox.com/s/lkhcjtpnhrdsv76/ChromaTags_16H5.zip?dl=1)
 
 
 ## Source ## 
@@ -100,7 +106,7 @@ ls
 A run script is provided to process the toy images. This script uses the `Run_ChromaTag_Detector` program in `.../build/bin`. To run the script, type:
 ```
 cd ChromaTag/Scripts
-bash run_chromatag.sh
+bash Run_ChromaTag.sh
 ```
 
 The script is useful in seeing the default way to process images in a folder. There are other options for processing (e.g. processing a list of images or an LCM stream). To run with no images and see the menu, type:
