@@ -31,6 +31,7 @@ Some toy data is provided with the repository to ensure things are running corre
 
 
 ## Tags ##
+The 16H5 family of ChromaTags can be downloaded from [here](https://www.dropbox.com/s/lkhcjtpnhrdsv76/ChromaTags_16H5.zip?dl=0)
 
 
 ## Source ## 
