@@ -3,7 +3,7 @@
  
  --------------------------
  Joseph DeGol
- UIUC Fall 2013
+ UIUC Fall 2017
  --------------------------
  Run_JMD_ChromaTag_Detector: Version 1.0
  --------------------------
@@ -503,10 +503,20 @@ void Process_Images(std::vector<std::string> &ImageList)
 			myWriter.Writer_Continued("    Pose Time      = " + myWriter.ToString(t2),true);
 			myWriter.Writer_Continued("    FPS for Detect+Decode = " + myWriter.ToString(1/(t0+t1)),true);
 			myWriter.Writer_Continued("",true);
-			namedWindow( ProgramName, cv::WINDOW_NORMAL);//cv::WINDOW_AUTOSIZE );
-			//cv::resizeWindow( ProgramName, 1008, 756 );
-			imshow( ProgramName, image );
-			cv::waitKey(1);
+			if(mySettings.myDebugLevel > 0)
+			{
+				namedWindow( ProgramName, cv::WINDOW_AUTOSIZE );
+				//cv::resizeWindow( ProgramName, 1008, 756 );
+				imshow( ProgramName, image );
+				if(mySettings.myDebugLevel > 1)
+				{
+					cv::waitKey(0);
+				}
+				else
+				{
+					cv::waitKey(1);
+				}
+			}
 			
 			//write images
 			if(!Output_Path.empty())
