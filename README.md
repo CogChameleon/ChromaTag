@@ -8,6 +8,7 @@ ChromaTag is a colored fiducial marker and fast detection algorithm. It was orig
 3. Tag generation tools
 4. Color calibration tool to generate markers for specific lighting conditions
 You can contact Joseph DeGol (degol2@illinois.edu) with any questions, problems, or suggestions.
+5. Additional Tag Families (36H11)
 
 
 ## License ##
