@@ -27,11 +27,11 @@ If you find ChromaTag useful, please consider citing:
 ```
 
 ## Data ##
-Some toy data is provided with the repository to ensure things are running correctly. Here are links to some additional datasets:
-[Download Starter Data Translation](https://uofi.box.com/shared/static/tzf7kabniv189oyqkprhej6ny7l3qatx.zip)  
-[Download Starter Data In-Plane Rotation](https://uofi.box.com/shared/static/e4tv77nv0fshek6uasi6v0lr7ry5tt5k.zip)  
-[Download Development Data In-Plane Rotation](https://uofi.box.com/shared/static/v9rrv8iny4ox1mky5btiw8d9fkrelp7m.zip)  
-[Download Development Data Out-Of-Plane Rotation](https://uofi.box.com/shared/static/7gekssc211yc2z52r69m9q2za86pm0bi.zip)  
+Some toy data is provided with the repository to ensure things are running correctly. Here are links to some additional datasets:  
+1. [Download Starter Data Translation](https://uofi.box.com/shared/static/tzf7kabniv189oyqkprhej6ny7l3qatx.zip)  
+2. [Download Starter Data In-Plane Rotation](https://uofi.box.com/shared/static/e4tv77nv0fshek6uasi6v0lr7ry5tt5k.zip)  
+3. [Download Development Data In-Plane Rotation](https://uofi.box.com/shared/static/v9rrv8iny4ox1mky5btiw8d9fkrelp7m.zip)  
+4. [Download Development Data Out-Of-Plane Rotation](https://uofi.box.com/shared/static/7gekssc211yc2z52r69m9q2za86pm0bi.zip)  
 
 
 ## Tags ##
