@@ -2,7 +2,7 @@
 
 
 ## Introduction ##
-ChromaTag is a colored fiducial marker and fast detection algorithm. It was originally published in ICCV 2017 (see citation below). This is the location of the source that is actively being developed. If you want the latest stable version, you can download it from [here](http://degol2.web.engr.illinois.edu/pages/ChromaTag_ICCV17.html). The current set of priority development tasks for ChromaTag are:
+ChromaTag is a colored fiducial marker and fast detection algorithm. It was originally published in ICCV 2017 (see citation below). This is the location of the source that is actively being developed. If you want the latest stable version, you can download it from [here](http://josephdegol.com/pages/ChromaTag_ICCV17.html). The current set of priority development tasks for ChromaTag are:
 1. Testing multi-marker detection
 2. Testing inter-marker confusion
 3. Tag generation tools
